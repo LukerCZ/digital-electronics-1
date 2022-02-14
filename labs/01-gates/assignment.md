@@ -4,7 +4,15 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![Logic function](images/equations.png)
+Main function
+
+<img src="https://latex.codecogs.com/svg.image?\bg_white&space;f_{cba}=&space;\bar{b}\cdot&space;a&space;&plus;&space;\bar{c}&space;\cdot&space;\bar{b}&space;" title="\bg_white f_{cba}= \bar{b}\cdot a + \bar{c} \cdot \bar{b} " />
+function NOR only
+<img src="https://latex.codecogs.com/svg.image?\bg_white&space;f_{cba_{(NOR)}}=&space;\overline{b&space;&plus;&space;\bar{a}}&space;&plus;&space;\overline{c&space;&plus;&space;b}" title="\bg_white f_{cba_{(NOR)}}= \overline{b + \bar{a}} + \overline{c + b}" />
+function NAND only
+<img src="https://latex.codecogs.com/svg.image?\bg_white&space;f_{cba_{(NAND)}}=&space;\bar{b}&space;\cdot&space;(\overline{\bar{a}&space;&plus;&space;c})" title="\bg_white f_{cba_{(NAND)}}= \bar{b} \cdot (\overline{\bar{a} + c})" />
+   
+
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
