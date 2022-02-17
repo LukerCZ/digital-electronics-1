@@ -14,10 +14,13 @@
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
     B>A
+    
    ![image](https://user-images.githubusercontent.com/99397107/154459690-c2d73232-dc48-4a7f-8c63-8fb51373cd1f.png)
-   ![image](https://user-images.githubusercontent.com/99397107/154464907-ff8cc05d-23b0-4e32-b2d2-bc2e6a3ffa6e.png)
+   ![image](https://user-images.githubusercontent.com/99397107/154529594-8027641a-6f5f-4fd4-907d-72e5863b95c6.png)
+
    
    B<A
+       
    ![image](https://user-images.githubusercontent.com/99397107/154465891-98a3c896-09b6-4463-a2d2-83ba95540e35.png)
    ![image](https://user-images.githubusercontent.com/99397107/154469872-a26abbec-6939-4af2-aefb-74a2a6730aee.png)
 
@@ -53,7 +56,6 @@
 ```
 
 2. Text console screenshot during your simulation, including reports.
-3. 
 ![image](https://user-images.githubusercontent.com/99397107/154457271-66bb0bf5-8068-4722-8b61-52f914a4cb15.png)
 
 
