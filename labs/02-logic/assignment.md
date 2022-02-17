@@ -6,13 +6,20 @@
 
    Greater than:
 
-   ![image](https://user-images.githubusercontent.com/99397107/154429786-7c3a8889-ce56-4d6c-af26-3990762c4593.png)
+   ![image](https://user-images.githubusercontent.com/99397107/154455870-1a0b7d63-8771-4f04-aabe-9774e071eee7.png)
 
    Less than:
 
-   ![image](https://user-images.githubusercontent.com/99397107/154429875-26c641ea-c864-4791-a785-998ae8b35259.png)
+   ![image](https://user-images.githubusercontent.com/99397107/154456206-af943f14-550e-4b0f-aaaf-65684986ccf0.png)
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
+    B>A
+   ![image](https://user-images.githubusercontent.com/99397107/154459690-c2d73232-dc48-4a7f-8c63-8fb51373cd1f.png)
+   ![image](https://user-images.githubusercontent.com/99397107/154464907-ff8cc05d-23b0-4e32-b2d2-bc2e6a3ffa6e.png)
+   
+   B<A
+   ![image](https://user-images.githubusercontent.com/99397107/154465891-98a3c896-09b6-4463-a2d2-83ba95540e35.png)
+   ![image](https://user-images.githubusercontent.com/99397107/154469872-a26abbec-6939-4af2-aefb-74a2a6730aee.png)
 
    ![Logic functions](images/comparator_min.png)
 
@@ -46,8 +53,10 @@
 ```
 
 2. Text console screenshot during your simulation, including reports.
+3. 
+![image](https://user-images.githubusercontent.com/99397107/154457271-66bb0bf5-8068-4722-8b61-52f914a4cb15.png)
 
-   ![your figure]()
+
 
 3. Link to your public EDA Playground example:
 
