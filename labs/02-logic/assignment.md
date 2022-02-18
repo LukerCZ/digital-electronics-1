@@ -1,11 +1,12 @@
-# Lab 2: Lukas Kudrna
+# Lab 2: Lukáš Kudrna
 
 ### 2-bit comparator
 
 1. Karnaugh maps for other two functions:
 
    Greater than:
-
+   
+   
    ![image](https://user-images.githubusercontent.com/99397107/154455870-1a0b7d63-8771-4f04-aabe-9774e071eee7.png)
 
    Less than:
@@ -16,14 +17,12 @@
     #### SoP and PoS of "greater than" function (B>A)
     
    ![image](https://user-images.githubusercontent.com/99397107/154459690-c2d73232-dc48-4a7f-8c63-8fb51373cd1f.png)
-   ![image](https://user-images.githubusercontent.com/99397107/154529594-8027641a-6f5f-4fd4-907d-72e5863b95c6.png)
-
+   ![image](https://user-images.githubusercontent.com/99397107/154682946-425eb0db-8838-40e2-bb0a-70c1aa049c74.png)
    
    #### SoP and PoS of "less than" function (B<A)
        
-   ![image](https://user-images.githubusercontent.com/99397107/154465891-98a3c896-09b6-4463-a2d2-83ba95540e35.png)
-   ![image](https://user-images.githubusercontent.com/99397107/154469872-a26abbec-6939-4af2-aefb-74a2a6730aee.png)
-
+   ![image](https://user-images.githubusercontent.com/99397107/154682982-608c4ed1-871d-467f-8de2-aac55d672fa3.png)      
+   ![image](https://user-images.githubusercontent.com/99397107/154683020-7c59d39f-4dc7-476d-8d3e-955de5952609.png)
 
 ### 4-bit comparator
 
