@@ -55,11 +55,10 @@
 ```
 
 2. Text console screenshot during your simulation, including reports.
-![image](https://user-images.githubusercontent.com/99397107/154457271-66bb0bf5-8068-4722-8b61-52f914a4cb15.png)
 
-
+![image](https://user-images.githubusercontent.com/99397107/154682239-34977271-e272-4f5a-b37a-4a25979b7fb3.png)
 
 3. Link to your public EDA Playground example:
 
-![image](https://user-images.githubusercontent.com/99397107/154682239-34977271-e272-4f5a-b37a-4a25979b7fb3.png)
+[https://www.edaplayground.com/x/jMNg](https://www.edaplayground.com/x/jMNg)
 
