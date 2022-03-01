@@ -1,4 +1,4 @@
-# Lab 3: YOUR_FIRSTNAME LASTNAMEE
+# Lab 3: Lukáš Kudrna
 
 ### Three-bit wide 4-to-1 multiplexer
 
