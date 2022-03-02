@@ -1,4 +1,4 @@
-# Lab 4: YOUR_FIRSTNAME LASTNAME
+# Lab 4: Lukáš Kudrna
 
 ### Seven-segment display decoder
 
