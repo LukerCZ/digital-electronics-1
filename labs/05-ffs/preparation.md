@@ -38,7 +38,15 @@ In this laboratory exercise, you will study the differences between a statically
 
 1. Write characteristic equations and complete truth tables for D, JK, T flip-flops where `q(n)` represents main output value before the clock edge and `q(n+1)` represents value after the clock edge.
 
-![Characteristic equations](images/eq_flip_flops.png)
+### Characteristic equations of:
+
+#### D-type FF
+![image](https://user-images.githubusercontent.com/99397107/157635784-37f6458a-0bd3-4c94-a9b7-354be950d248.png)
+#### JK-type FF
+![image](https://user-images.githubusercontent.com/99397107/157635690-acfa9cfa-ae67-43c4-9b05-94dea9725395.png)
+#### T-type FF
+![image](https://user-images.githubusercontent.com/99397107/157635746-8b6eeba6-c79c-4639-8c0a-73978e9f3233.png)
+
 <!--
 \begin{align*}
     q_{n+1}^D =&~ \\
@@ -49,9 +57,9 @@ In this laboratory exercise, you will study the differences between a statically
    ### D-type FF
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | q(n+1) has the same level as d |
-   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | q(n+1) has the same level as d |
-   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | q(n+1) has the same level as d |
+   | ↑ | 0 | 0 | 0 | q(n+1) has the same level as d |
+   | ↑ | 0 | 1 | 0 | q(n+1) has the same level as d |
+   | ↑ | 1 | 0 | 1 | q(n+1) has the same level as d |
    | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | q(n+1) has the same level as d |
 
    ### JK-type FF
