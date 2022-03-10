@@ -49,7 +49,7 @@ In this laboratory exercise, you will study the differences between a statically
    ### D-type FF
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-  | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | q(n+1) has the same level as d |
+   | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | q(n+1) has the same level as d |
    | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | q(n+1) has the same level as d |
    | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | q(n+1) has the same level as d |
    | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | q(n+1) has the same level as d |
@@ -59,20 +59,20 @@ In this laboratory exercise, you will study the differences between a statically
    | :-: | :-: | :-: | :-: | :-: | :-- |
    | [rising] | 0 | 0 | 0 | 0 | No change |
    | [rising] | 0 | 0 | 1 | 1 | No change |
-   | [rising] | 0 |  |  |  |  |
-   | [rising] | 0 |  |  |  |  |
-   | [rising] | 1 |  |  |  |  |
-   | [rising] | 1 |  |  |  |  |
-   | [rising] | 1 |  |  |  |  |
-   | [rising] | 1 |  |  |  |  |
+   | [rising] | 0 | 1 | 0 | 0 | Reset |
+   | [rising] | 0 | 1 | 1 | 0 | Reset |
+   | [rising] | 1 | 0 | 0 | 1 | Set |
+   | [rising] | 1 | 0 | 1 | 1 | Set |
+   | [rising] | 1 | 1 | 0 | 1 | Toggle |
+   | [rising] | 1 | 1 | 1 | 0 | Toggle |
 
    ### T-type FF
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | [rising] | 0 | 0 | 0 | No change |
    | [rising] | 0 | 1 | 1 | No change |
-   | [rising] | 1 | 0 | 1 | Toggle |
-   | [rising] | 1 | 1 | 0 | Toggle |
+   | [rising] | 1 | 0 | 1 | Inverted (Toggle) |
+   | [rising] | 1 | 1 | 0 | Inverted (Toggle) |
 
 <!--
 Dokreslit průběhy pro D-latch a D-type FF.
