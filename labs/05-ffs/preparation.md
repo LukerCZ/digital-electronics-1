@@ -46,14 +46,15 @@ In this laboratory exercise, you will study the differences between a statically
     q_{n+1}^T =&\\
 \end{align*}
 -->
-
+   ### D-type FF
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | [rising] | 0 | 0 |  |  |
-   | [rising] | 0 | 1 |  |  |
-   | [rising] | 1 |  |  |  |
-   | [rising] | 1 |  |  |  |
+  | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | q(n+1) has the same level as d |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | q(n+1) has the same level as d |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | q(n+1) has the same level as d |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | q(n+1) has the same level as d |
 
+   ### JK-type FF
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-: | :-- |
    | [rising] | 0 | 0 | 0 | 0 | No change |
@@ -65,6 +66,7 @@ In this laboratory exercise, you will study the differences between a statically
    | [rising] | 1 |  |  |  |  |
    | [rising] | 1 |  |  |  |  |
 
+   ### T-type FF
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | [rising] | 0 | 0 | 0 | No change |
