@@ -37,5 +37,5 @@ end architecture Behavioral;
 
 1. Image of the shift register `top` level schematic. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![image](https://user-images.githubusercontent.com/99397107/158635585-4cae20d1-56fc-447c-8743-3151e5ff4469.png)
+  ![image](https://user-images.githubusercontent.com/99397107/158639768-61d9f106-59ee-4ad9-b76d-c9749e6c5a77.png)
 
