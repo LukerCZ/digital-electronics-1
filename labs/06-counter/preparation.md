@@ -4,7 +4,9 @@ The Nexys A7 board provides five push buttons for user applications.
 
 1. See [schematic](https://github.com/tomas-fryza/digital-electronics-1/blob/master/docs/nexys-a7-sch.pdf) or [reference manual](https://reference.digilentinc.com/reference/programmable-logic/nexys-a7/reference-manual) of the Nexys A7 board and find out the connection of these push buttons, ie to which FPGA pins are connected and how. What logic/voltage value do the buttons generate when not pressed and what value when the buttons are pressed? Draw the schematic with push buttons.
 
-![shcematic of pushbuttons](images/pushbuttons.png)
+### Schematic of pushbuttons:
+![image](https://user-images.githubusercontent.com/99397107/158776129-2df1d983-fd3b-459b-9007-5057b6c639aa.png)
+![image](https://user-images.githubusercontent.com/99397107/158776555-84b5d882-ccb4-44a7-bf9b-3f4b1ae7fb4d.png)
 
 **Circuit => ***pull down resistors*****
 
