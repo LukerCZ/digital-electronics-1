@@ -6,7 +6,7 @@ See schematic or reference manual of the Nexys A7 board, find out the connection
 
 ![image](https://user-images.githubusercontent.com/99397107/159808084-8e0fc884-7d80-4182-a56d-b83790e093e5.png)
 
-![image](https://user-images.githubusercontent.com/99397107/159808241-d7bb4f59-f6bd-4ed8-9894-24f0974c097c.png)
+
 ```vhdl
 {
   signal:
