@@ -13,7 +13,7 @@ Due to the physiological properties of human vision, it is necessary that the ti
 ![image](https://user-images.githubusercontent.com/99397107/159808084-8e0fc884-7d80-4182-a56d-b83790e093e5.png)
 
 
-```vhdl
+ ```javascript
 {
   signal:
   [
