@@ -4,7 +4,8 @@
 
 1. Figure of traffic light controller state diagram. The image can be drawn on a computer or by hand. Always name all states, transitions, and input signals!
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/99397107/161031759-bae93eaf-aede-4899-82e1-89766e13d592.png)
+
 
 2. Listing of VHDL code of the completed process `p_traffic_fsm`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
@@ -15,8 +16,8 @@
     -- clock_enable entirely controls the s_state signal by 
     -- CASE statement.
     --------------------------------------------------------
-    p_traffic_fsm : process(clk)
-    begin
+     p_traffic_fsm : process(clk)
+     begin
         if rising_edge(clk) then
             if (reset = '1') then   -- Synchronous reset
                 s_state <= STOP1;   -- Set initial state
@@ -42,9 +43,60 @@
                         end if;
 
                     when WEST_GO =>
-                        -- WRITE OTHER STATES HERE
-
-
+                        
+                        -- Count up to c_DELAY_4SEC
+                        if (s_cnt < c_DELAY_4SEC) then
+                            s_cnt <= s_cnt + 4;
+                        else
+                            -- Move to the next state
+                            s_state <= WEST_WAIT;
+                            -- Reset local counter value
+                            s_cnt <= c_ZERO;
+                        end if;
+                    when WEST_WAIT =>
+                        
+                        -- Count up to c_DELAY_2SEC
+                        if (s_cnt < c_DELAY_2SEC) then
+                            s_cnt <= s_cnt + 2;
+                        else
+                            -- Move to the next state
+                            s_state <= STOP2;
+                            -- Reset local counter value
+                            s_cnt <= c_ZERO;
+                        end if;
+                   when STOP2 =>
+                        
+                        -- Count up to c_DELAY_1SEC
+                        if (s_cnt < c_DELAY_1SEC) then
+                            s_cnt <= s_cnt + 1;
+                        else
+                            -- Move to the next state
+                            s_state <= SOUTH_GO;
+                            -- Reset local counter value
+                            s_cnt <= c_ZERO;
+                        end if;
+                    when SOUTH_GO =>
+                        
+                        -- Count up to c_DELAY_4SEC
+                        if (s_cnt < c_DELAY_4SEC) then
+                            s_cnt <= s_cnt + 4;
+                        else
+                            -- Move to the next state
+                            s_state <= SOUTH_WAIT;
+                            -- Reset local counter value
+                            s_cnt <= c_ZERO;
+                        end if;   
+                     when SOUTH_WAIT =>
+                        
+                        -- Count up to c_DELAY_2SEC
+                        if (s_cnt < c_DELAY_2SEC) then
+                            s_cnt <= s_cnt + 2;
+                        else
+                            -- Move to the next state
+                            s_state <= STOP1;
+                            -- Reset local counter value
+                            s_cnt <= c_ZERO;
+                        end if;   
                     -- It is a good programming practice to use the 
                     -- OTHERS clause, even if all CASE choices have 
                     -- been made.
@@ -59,4 +111,5 @@
 
 3. Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/99397107/161030997-43772bc9-8656-4e4d-b6f2-b3b438961542.png)
+
