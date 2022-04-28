@@ -28,10 +28,10 @@
 
 ## Cíle projektu
 
-- Cílem projektu v rámci předmětu Digitální elektronika 1 bylo vytvořit PWM generování zvuku základních signálů
-- Deska Nexys A7-50 pro ovládání 7segmentového displeje pro zobrazení frekvence PWM modulace pro sinusový signál. 
-- Kódy, testovací plochy a simulace jsou vytvořeny ve Vivadu.
-- Modely a návrhy desky jsou vytvořeny v Altium (PCB Design Softwares).
+- využít desku Nexys A7-50 pro PWM generování zvuku základních signálů.
+- využít desku Nexys A7-50 pro ovládání 7segmentového displeje a zobrazení frekvence PWM modulace pro sinusový signál. 
+- vytvořit kód a simulace v prostředí Vivada.
+- vytořit schému a návrh desky v prostředí Altia (PCB Design Software).
 
 <a name="hardware"></a>
 
