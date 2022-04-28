@@ -87,9 +87,7 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 #### Kód modulu Driver-7seg
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/driver_7seg_4digits.vhd
 
-### Simulace
-
-##### Testbench simulace ve Vivadu
+### Simulace v prostředí Vivado
 
 - text ohľadom simulácií.
 
@@ -105,10 +103,6 @@ Middle                     |Průchod nulou
 |:--:| 
 |*Schéma simulací [testbench] v prostředí Vivado*|
 
-#####  Výstupní signál zobrazený pomocí osciloskopu
-
-
-
 <a name="top"></a>
 
 ## Popis a simulace TOP vrstvy ve VHDL
@@ -123,6 +117,14 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 |*Schéma Top modulu*|
 
 <a name="video"></a>
+## Příklad výstupních signálů (noty) zobrazených osciloskopicky
+
+Nota C4 [frekvence = ~261 Hz] Minimum           |Nota C5 [frekvence = ~523 Hz] Maximum
+:-------------------------:|:-------------------------:
+![MIDDLE](https://user-images.githubusercontent.com/99397107/165825357-6f038a63-20d1-4ff8-b063-57b1a8716338.JPG)|![PrechodNulouFIN](https://user-images.githubusercontent.com/99397107/165826258-7d612401-1e23-45be-a742-2d1f50f00cf4.jpg)
+
+|:--:| 
+|*Oscilogram výstupních signálů *|
 
 ## Video
 
