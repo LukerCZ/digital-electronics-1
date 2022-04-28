@@ -1,5 +1,5 @@
-# Nexys board mono audio output and PWM sound generation. Generate basic signals and/or audio samples.
-## "Generace signálů a monofonních zvuků pomocí pulzně šířkové modulace vytvořené na multifunkční desce Nexys A7 50T"
+
+# Generace signálů a monofonních zvuků pomocí pulzně šířkové modulace vytvořené na multifunkční desce Nexys A7-50T
 
 ### Členové týmu
 
@@ -23,13 +23,16 @@
 
 The objective of the project within the subject Digital electronics was to create PWM sound generation of basic signals. We used these components. Nexys A7-50 board to control 7-segment display to display frequency of PWM modulation for sinus signal. The codes, testbenches and simulations are created in Vivado. Models and designes of board are created in Altium.
 
+Cílem projektu v rámci předmětu Digitální elektronika bylo vytvořit PWM generování zvuku základních signálů. Tyto komponenty jsme použili. Deska Nexys A7-50 pro ovládání 7segmentového displeje pro zobrazení frekvence PWM modulace pro sinusový signál. Kódy, testovací plochy a simulace jsou vytvořeny ve Vivado. Modely a návrhy desky jsou vytvořeny v Altiu.
+
 <a name="hardware"></a>
 
 ## Popis Hardwaru
 ### Nexys A7-50T
 The Nexys A7 board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7™ Field Programmable Gate Array (FPGA) from Xilinx®.  With its large, high-capacity FPGA, generous external memories, and collection of USB, Ethernet, and other ports, the Nexys A7 can host designs ranging from introductory combinational circuits to powerful embedded processors. Several built-in peripherals, including an accelerometer, temperature sensor, MEMs digital microphone, a speaker amplifier, and several I/O devices allow the Nexys A7 to be used for a wide range of designs without needing any other components.
 
-- Deska Nexys A7 je platforma na bázi Artix-7™ Field Programmable Gate Array (FPGA) z Xilinx®. Obsahuje vysokokapacitní FPGA, externí paměti, USB, Ethernet, a další porty, Nexys A7 může host designů ranging z introduktorů kombinačních obvodů do powerful embedded processors. Severální budovy v peripherals, zahrnující accelerometr, teplotní senzor, MEMs digitální mikrofon, reproduktory amplifier, a severní I/O zařízení na nexys A7 bude použita pro širokou škálu designů s nepotřebnou any ostatní komponenty.
+Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů připravená k použití, založená na nejnovějším Artix-7™ Field Programmable Gate Array (FPGA) od Xilinx®. Díky velkému, vysokokapacitnímu FPGA, velkorysým externím pamětem a sbírce USB, Ethernet a dalších portů může Nexys A7 hostit návrhy od úvodních kombinačních obvodů až po výkonné vestavěné procesory. Několik vestavěných periferních zařízení, včetně akcelerometru, teplotního senzoru, digitálního mikrofonu MEM, zesilovače reproduktorů a několika I/O zařízení, umožňuje použití Nexys A7 pro širokou škálu návrhů, aniž by potřeboval další komponenty.
+
 
 ![nexys-a7-obl-600](https://user-images.githubusercontent.com/99388246/165694448-dfccf257-62a9-4c5e-bb68-ceab544a98f1.png)
 |:--:| 
@@ -56,8 +59,6 @@ The Nexys A7 board is a complete, ready-to-use digital circuit development platf
 ### Modul Sin_gen 
 
 - text about this module
-
-
 
 #### Odkaz na kód modulu Sin-gen
 https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/sin_generator.vhd
@@ -140,9 +141,10 @@ Write your text here
 
 1. Nexys A7 Reference Manual: 
 - https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
+
 2. Github:
 - https://github.com/tomas-fryza/digital-electronics-1/tree
-- 
+ 
 3. Sine wave generator using PWM:
 - https://www.ti.com/lit/an/spna217/spna217.pdf?
  
