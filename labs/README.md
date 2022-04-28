@@ -35,9 +35,7 @@ Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů, založe
 
 
 ![nexys-a7-obl-600](https://user-images.githubusercontent.com/99388246/165694448-dfccf257-62a9-4c5e-bb68-ceab544a98f1.png)
-|:--:| 
-|*Nexys A7-50T*|
-
+ <fig caption> <p align="center"> Nexys A7-50T
 
 ### Zesilovač
 
@@ -57,9 +55,8 @@ Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů, založe
 ![TOP_LR_VIEW](https://user-images.githubusercontent.com/99397107/165839082-08e70d71-ed08-4b9f-8b42-5cba28c647ea.JPG)|![BOT_LR_VIEW](https://user-images.githubusercontent.com/99397107/165839125-298f1211-196a-41d6-ac05-d930292057f7.JPG)
 
 ![0001](https://user-images.githubusercontent.com/99397107/165841715-2b7259a5-c591-4f51-b733-d8ca7df2b477.jpg)
+###### <fig caption> <p align="center"> Schéma desky zesilovače
 
-|:--:| 
-|*Schéma desky zesilovače*|
 <a name="modules"></a>
 
 ## Popis a simulace modulů psané ve VHDL
@@ -131,7 +128,8 @@ Střed sinusoidy             |Spektrum sinusoidy
 ![C5_MID](https://user-images.githubusercontent.com/99397107/165830888-39846d89-9cd3-4b81-b038-4d63b277ad6b.png)|![C5_Spektrum](https://user-images.githubusercontent.com/99397107/165830906-6ef4ea90-2434-49d2-9d60-5067d2526a32.png)
 
 ## Video 
-
+ 
+https://youtu.be/nLSVV8CweyI
 <a name="references"></a>1
 
 ## Diskuze o výsledcích projektu
