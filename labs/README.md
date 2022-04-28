@@ -4,16 +4,16 @@
 ### Členové týmu
 
 **Dominik Caban** <br>
-- návrh zesilovač a vytváření signálu (SIN, PWM, BLOCK SCHEMATIC), proslov u videa
+- návrh zesilovače a vytváření signálu (SIN, PWM, BLOCK SCHEMATIC), proslov u videa
 
 **Ivo Dovičák** <br>
-- generování signálů a zvuků (SIN, PWM, TEST BENCH),trýčky s displejem
+- generování signálů a zvuků (SIN, PWM, TEST BENCH)
 
 **Martin Kováč**  <br>
-- střih a finální úprava videa a uživatelské rozhraní 
+- střih a finální úprava videa a uživatelské rozhraní (Switch)
 
 **Lukáš Kudrna** <br>
-- finální dokumentace projektu (README) a uživatelské rozhraní 
+- finální dokumentace projektu (README.md) a uživatelské rozhraní (displej)
 
 ### Obsah
 
