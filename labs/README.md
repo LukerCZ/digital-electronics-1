@@ -141,7 +141,10 @@ https://youtu.be/nLSVV8CweyI
 
 ## Diskuze o výsledcích projektu
 
-- Ideálnější variantou by bylo využití VGA zesilovače, který by byl řiditelný přes vývojový kit, ovšem realizace v tomto konkrétním případě by byla komplikovaná a projekt by jen zkomplikovala.
+- 
+ 
+ Ideálnější variantou by bylo využití VGA zesilovače, který by byl řiditelný přes vývojový kit, ovšem realizace v tomto konkrétním případě by byla komplikovaná a projekt by jen zkomplikovala.
+- Projekt nám přinesl vela radosti, zabavili jsme se u toho,
 
 ## Literatura
 
