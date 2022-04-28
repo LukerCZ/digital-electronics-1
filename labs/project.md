@@ -1,31 +1,31 @@
 # Nexys board mono audio output and PWM sound generation. Generate basic signals and/or audio samples.
 ## "Generace signálů a monofonních zvuků pomocí pulzně šířkové modulace vytvořené na multifunkční desce Nexys A7 50T"
 
-### Team members
+### Členové týmu
 
 * Dominik Caban (zodpovídá za analogové části a vytváření signálu (SIN, PWM,TEST BENCH)
 * Ivo Dovičák (generovaání signálů a zvuků (SIN, PWM, BLOCK SCHEMATIC)
 * Martin Kováč (prezentace projektu a uživatelské rozhraní)
 * Lukáš Kudrna (Finální dokumentace projektu a uživatelské rozhraní)
 
-### Table of contents
+### Obsah
 
-* [Project objectives](#objectives)
-* [Hardware description](#hardware)
-* [VHDL modules description and simulations](#modules)
-* [TOP module description and simulations](#top)
+* [Cíle projektu](#objectives)
+* [Popis Hardwaru](#hardware)
+* [Popis a simulace modulů psané ve VHDL](#modules)
+* [Popis a simulace TOP vrstvy ve VHDL](#top)
 * [Video](#video)
-* [References](#references)
+* [Literatura](#references)
 
 <a name="objectives"></a>
 
-## Project objectives
+## Cíle projektu
 
 The objective of the project within the subject Digital electronics was to create PWM sound generation of basic signals. We used these components. Nexys A7-50 board to control 7-segment display to display frequency of PWM modulation for sinus signal. The codes, testbenches and simulations are created in Vivado. Models and designes of board are created in Altium.
 
 <a name="hardware"></a>
 
-## Hardware description
+## Popis Hardwaru
 ### Nexys A7-50T
 The Nexys A7 board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7™ Field Programmable Gate Array (FPGA) from Xilinx®.  With its large, high-capacity FPGA, generous external memories, and collection of USB, Ethernet, and other ports, the Nexys A7 can host designs ranging from introductory combinational circuits to powerful embedded processors. Several built-in peripherals, including an accelerometer, temperature sensor, MEMs digital microphone, a speaker amplifier, and several I/O devices allow the Nexys A7 to be used for a wide range of designs without needing any other components.
 
@@ -35,66 +35,66 @@ The Nexys A7 board is a complete, ready-to-use digital circuit development platf
 |:--:| 
 |*Nexys A7-50T*|
 
-### Amplifier board
+### Zesilovací deska
 ![278620852_1021410442135136_7154315500152959101_n](https://user-images.githubusercontent.com/99388246/165693223-0a94e4e5-78b2-440c-bc23-228c8eb99cf3.png)
 |:--:| 
-|*Model of amplifier board*|
+|*Model desky zesilovače*|
 
 ![278885036_353535676806500_6518462935903523547_n](https://user-images.githubusercontent.com/99388246/165693208-ae4fd1d9-7659-4385-9e47-1a015b2743d0.png)
 
 <a name="modules"></a>
 
-## VHDL modules description and simulations
+## Popis a simulace modulů psané ve VHDL
 
 
 
-### Sin_gen module
+### Modul Sin_gen 
 
 - text about this module
 
 
 
-#### Code for module
+#### Kód modulu Sin-gen
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/COUNTER_UpDw_14b.vhd
 
 
-### SW handler module
+### Modul SW handler 
 
 - text about this module
 
-#### Code for module
+#### Kód modulu SW handler
 
 
-### PWM_gen module
+### Modul PWM_gen
 
 - text about this module
 
-#### Code for module
+#### Kód modulu PWM_gen
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/PWM.vhd
 
 
-### Driver-7seg module
+### Modul Driver-7seg
 
 - text about this module
 
-#### Code for module
+#### Kód modulu Driver-7seg
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/driver_7seg_4digits.vhd
 
-### Simulations
+### Simulace
 - text ohľadom simulácií.
 
 
 <a name="top"></a>
 
-## TOP module description and simulations
+## Popis a simulace TOP vrstvy ve VHDL
 
 Top module contains all above modules. It connects them together with hardware components.
 
-### Top module code 
+### Kód TOP modulu
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sim_1/imports/new/tb_TOP_GENERATOR.vhd
 
 |:--:| 
-|*Top modul schema*|
+|*Schéma Top modulu*|
 
 <a name="video"></a>
 
@@ -104,6 +104,6 @@ Write your text here
 
 <a name="references"></a>
 
-## References
+## Literatura
 
 1. Nexys A7 Reference Manual https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
