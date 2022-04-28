@@ -35,6 +35,7 @@ Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů, založe
 |:--:| 
 |*Nexys A7-50T*|
 
+
 ### Zesilovač
 
 - Do našeho studentského projektu jsme zakomponovali také vývojový kit - výstupní zesilovač s nastavitelným ziskem. Hlavní smysl našeho zesilovače je v rámci výuky přiblížit studentům samotný HW (ovšem vývojový kit od XILINX v našem případě deska Nexys A7-50T naprosto stačí).
@@ -43,13 +44,11 @@ Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů, založe
 - Např. při napájení zesilovače z USB notebooku, můžeme dostat nasuperponované vysokofrekvenční rušení a tento filtr nám dokáže tyto nebezpečné složky potlačit.
 - Návrh zesilovače je realizovaný pomocí aplikace Altium Limited software, kde po návrhnutí schématu se vytvoří DPS viz. obrázky níže.
 
-![278620852_1021410442135136_7154315500152959101_n](https://user-images.githubusercontent.com/99388246/165693223-0a94e4e5-78b2-440c-bc23-228c8eb99cf3.png)
-|:--:| 
-|*Model desky zesilovače (TOP)*|
 
-![278885036_353535676806500_6518462935903523547_n](https://user-images.githubusercontent.com/99388246/165693208-ae4fd1d9-7659-4385-9e47-1a015b2743d0.png)
-|:--:| 
-|*Model desky zesilovače (TOP)*|
+3D Model desky zesilovače (TOP)|Layoutový pohled desky zesilovače (TOP)
+:-------------------------:|:-------------------------:
+![278620852_1021410442135136_7154315500152959101_n](https://user-images.githubusercontent.com/99388246/165693223-0a94e4e5-78b2-440c-bc23-228c8eb99cf3.png)|![278885036_353535676806500_6518462935903523547_n](https://user-images.githubusercontent.com/99388246/165693208-ae4fd1d9-7659-4385-9e47-1a015b2743d0.png)
+
 <a name="modules"></a>
 
 ## Popis a simulace modulů psané ve VHDL
@@ -84,11 +83,6 @@ https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de
 https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/driver_7seg_4digits.vhd
 
 ### Simulace PWM pro sinus v prostředí Vivado
-
-Minimum                    |Maximum
-:-------------------------:|:-------------------------:
-![MIN](https://user-images.githubusercontent.com/99397107/165824665-f28134af-fd2a-4e1f-8857-7d2d55cf2aeb.JPG)|![MAX](https://user-images.githubusercontent.com/99397107/165824905-91994a5c-5f9b-44cf-b043-a7ce4f09109b.JPG)
-
 
 
 Střed                      |Průchod nulou
