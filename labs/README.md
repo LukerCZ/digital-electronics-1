@@ -56,6 +56,9 @@ Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů, založe
 :-------------------------:|:-------------------------:
 ![TOP_LR_VIEW](https://user-images.githubusercontent.com/99397107/165839082-08e70d71-ed08-4b9f-8b42-5cba28c647ea.JPG)|![BOT_LR_VIEW](https://user-images.githubusercontent.com/99397107/165839125-298f1211-196a-41d6-ac05-d930292057f7.JPG)
 
+![image](https://user-images.githubusercontent.com/99397107/165841445-905c1bc7-0669-4ac6-bb1f-77255088ae5b.png)
+|:--:| 
+|*Schéma desky zesilovače*|
 <a name="modules"></a>
 
 ## Popis a simulace modulů psané ve VHDL
