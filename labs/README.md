@@ -116,15 +116,15 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 |*Schéma Top modulu*|
 
 <a name="video"></a>
-## Příklad výstupních signálů (noty) zobrazených osciloskopicky
+#### Příklad výstupních signálů (noty) zobrazených osciloskopicky
 
 Nota C4, frekvence = ~261 Hz (Min)  |Nota C5, frekvence = ~523 Hz (Max)
 :-------------------------:|:-------------------------:
 ![C4](https://user-images.githubusercontent.com/99397107/165827889-ef8b4e22-0047-4556-83de-5ffc1c3d3463.png)|![C5](https://user-images.githubusercontent.com/99397107/165827930-9ff21b77-6a6a-4173-8dd5-d9f67f891dd6.png)
 
-### Nota C5 Min, Max, Střed oscilogramy
+#### Nota C5: Min, Max, Střed a Spektrum sinsového signálu (oscilogramy)
 
-minimum sinusoidy              |Maximum sinusoidy
+Minimum sinusoidy              |Maximum sinusoidy
 :-------------------------:|:-------------------------:
 ![C5_MIN](https://user-images.githubusercontent.com/99397107/165830655-b29274e9-168a-4838-9db8-21de372fa88c.png)|![C5_MAX](https://user-images.githubusercontent.com/99397107/165830683-88cb7ced-67a9-4b66-be49-cc60672f50a2.png)
 
