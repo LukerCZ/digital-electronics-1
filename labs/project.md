@@ -2,10 +2,10 @@
 
 ### Team members
 
-* Dominik Caban (responsible for xxx)
-* Ivo Dovičák (responsible for xxx)
-* Martin Kováč (responsible for xxx)
-* Lukáš Kudrna (responsible for xxx)
+* Dominik Caban (responsible for analog part and generating signal (SIN, PWM, TEST BENCH)
+* Ivo Dovičák (responsible for generating signals (SIN, PWM, BLOCK SCHEMATIC))
+* Martin Kováč (responsible for Presentation of the project (VIDEO) and display interface)
+* Lukáš Kudrna (responsible for Final documentation (GIT) and user interface)
 
 ### Table of contents
 
@@ -26,7 +26,9 @@ The objective of the project within the subject Digital electronics was to creat
 
 ## Hardware description
 ### Nexys A7-50T
-The Nexys A7 board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7™ Field Programmable Gate Array (FPGA) from Xilinx®. With its large, high-capacity FPGA, generous external memories, and collection of USB, Ethernet, and other ports, the Nexys A7 can host designs ranging from introductory combinational circuits to powerful embedded processors. Several built-in peripherals, including an accelerometer, temperature sensor, MEMs digital microphone, a speaker amplifier, and several I/O devices allow the Nexys A7 to be used for a wide range of designs without needing any other components.
+The Nexys A7 board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7™ Field Programmable Gate Array (FPGA) from Xilinx®.  With its large, high-capacity FPGA, generous external memories, and collection of USB, Ethernet, and other ports, the Nexys A7 can host designs ranging from introductory combinational circuits to powerful embedded processors. Several built-in peripherals, including an accelerometer, temperature sensor, MEMs digital microphone, a speaker amplifier, and several I/O devices allow the Nexys A7 to be used for a wide range of designs without needing any other components.
+
+- Deska Nexys A7 je platforma na bázi Artix-7™ Field Programmable Gate Array (FPGA) z Xilinx®. Obsahuje vysokokapacitní FPGA, externí paměti, USB, Ethernet, a další porty, Nexys A7 může host designů ranging z introduktorů kombinačních obvodů do powerful embedded processors. Severální budovy v peripherals, zahrnující accelerometr, teplotní senzor, MEMs digitální mikrofon, reproduktory amplifier, a severní I/O zařízení na nexys A7 bude použita pro širokou škálu designů s nepotřebnou any ostatní komponenty.
 
 ![nexys-a7-obl-600](https://user-images.githubusercontent.com/99388246/165694448-dfccf257-62a9-4c5e-bb68-ceab544a98f1.png)
 |:--:| 
@@ -43,11 +45,40 @@ The Nexys A7 board is a complete, ready-to-use digital circuit development platf
 
 ## VHDL modules description and simulations
 
-Write your text here.
-![ALL_1](https://user-images.githubusercontent.com/99388246/165690482-fb4a7660-ae4b-4873-b1ea-3788d28b862e.JPG)
-![ALL_2](https://user-images.githubusercontent.com/99388246/165690508-4f58b8ce-2970-40b8-ac10-aff1f8a2605a.JPG)
-![ALL_3](https://user-images.githubusercontent.com/99388246/165690524-8c277d65-4948-4dea-9443-afff70e9b6df.JPG)
-![ALL_4](https://user-images.githubusercontent.com/99388246/165690564-5b40531b-76fd-4ddd-b681-e5fec9a3feef.JPG)
+
+
+### Sin_gen module
+
+- text about this module
+
+#### Code for module
+https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/COUNTER_UpDw_14b.vhd
+
+
+### SW handler module
+
+- text about this module
+
+#### Code for module
+
+
+### PWM_gen module
+
+- text about this module
+
+#### Code for module
+https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/PWM.vhd
+
+
+### Driver-7seg module
+
+- text about this module
+
+#### Code for module
+https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/driver_7seg_4digits.vhd
+
+### Simulations
+- text ohľadom simulácií.
 
 
 <a name="top"></a>
@@ -57,12 +88,8 @@ Write your text here.
 Top module contains all above modules. It connects them together with hardware components.
 
 ### Top module code 
+https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sim_1/imports/new/tb_TOP_GENERATOR.vhd
 
-### Top module Testbench
-
-
-
-![Schem](https://user-images.githubusercontent.com/99388246/165649863-4699d57b-5b60-4eeb-8aff-df5456ab7aca.JPG)
 |:--:| 
 |*Top modul schema*|
 
@@ -76,4 +103,4 @@ Write your text here
 
 ## References
 
-1. Write your text here.
+1. Nexys A7 Reference Manual https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
