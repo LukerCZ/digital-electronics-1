@@ -126,9 +126,7 @@ Střed sinusoidy             |Spektrum sinusoidy
 :-------------------------:|:-------------------------:
 ![C5_MID](https://user-images.githubusercontent.com/99397107/165830888-39846d89-9cd3-4b81-b038-4d63b277ad6b.png)|![C5_Spektrum](https://user-images.githubusercontent.com/99397107/165830906-6ef4ea90-2434-49d2-9d60-5067d2526a32.png)
 
-## Video
-
-Write your text here
+## Video 
 
 <a name="references"></a>1
 
