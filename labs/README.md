@@ -109,11 +109,18 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 
 Write your text here
 
-<a name="references"></a>
+<a name="references"></a>1
+
+
 ## Diskuze o výsledcích projektu
 
-- Ideélnější variantou by bylo využití VGA zesilovače, který by byl řiditelný přes vývojový kit, ovšem realizace v tomto konkrétním případě by byla komplikovaná aprojekt by jen zkomplikovala.
+- Ideálnější variantou by bylo využití VGA zesilovače, který by byl řiditelný přes vývojový kit, ovšem realizace v tomto konkrétním případě by byla komplikovaná a projekt by jen zkomplikovala.
 
 ## Literatura
 
 1. Nexys A7 Reference Manual https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
+2. Github Tomáše  
+3. https://www.ti.com/lit/an/spna217/spna217.pdf?ts=1650971415029&ref_url=https%253A%252F%252Fwww.google.com%252F&fbclid=IwAR2o91b_vycstpEyiff5urMftw66HdCC2h_cRfH84jJQLBpN0FCEYBtIRUg
+4. https://www.analog.com/media/en/technical-documentation/data-sheets/ad8591_8592_8594.pdf
+5. 
+
