@@ -118,12 +118,19 @@ Write your text here
 
 ## Literatura
 
-1. Nexys A7 Reference Manual https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
-2. Github Tomáše  
-3. Sine wave generator using PWM
-- https://www.ti.com/lit/an/spna217/spna217.pdf?ts=1650971415029&ref_url=https%253A%252F%252Fwww.google.com%252F&fbclid=IwAR2o91b_vycstpEyiff5urMftw66HdCC2h_cRfH84jJQLBpN0FCEYBtIRUg
-5. https://www.analog.com/media/en/technical-documentation/data-sheets/ad8591_8592_8594.pdf
-6. Nexys-50T References : 
+1. Nexys A7 Reference Manual: 
+- https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
+3. Github:
+- https://github.com/tomas-fryza/digital-electronics-1/tree
+- 
+4. Sine wave generator using PWM:
+- https://www.ti.com/lit/an/spna217/spna217.pdf?
+ 
+5. Datasheet of operational amplifier:
+- https://www.analog.com/media/en/technical-documentation/data-sheets/ad8591_8592_8594.pdf
+
+6. Nexys A7-50T References: 
 - https://digilent.com/reference/_media/reference/programmable-logic/nexys-a7/nexys-a7-sch.pdf
 - https://digilent.com/reference/_media/reference/programmable-logic/nexys-a7/nexys-a7_rm.pdf
+
 
