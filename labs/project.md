@@ -1,11 +1,12 @@
 # Nexys board mono audio output and PWM sound generation. Generate basic signals and/or audio samples.
+## "Generace signálů a monofonních zvuků pomocí pulzně šířkové modulace vytvořené na multifunkční desce Nexys A7 50T"
 
 ### Team members
 
-* Dominik Caban (responsible for analog part and generating signal (SIN, PWM, TEST BENCH)
-* Ivo Dovičák (responsible for generating signals (SIN, PWM, BLOCK SCHEMATIC))
-* Martin Kováč (responsible for Presentation of the project (VIDEO) and display interface)
-* Lukáš Kudrna (responsible for Final documentation (GIT) and user interface)
+* Dominik Caban (zodpovídá za analogové části a vytváření signálu (SIN, PWM,TEST BENCH)
+* Ivo Dovičák (generovaání signálů a zvuků (SIN, PWM, BLOCK SCHEMATIC)
+* Martin Kováč (prezentace projektu a uživatelské rozhraní)
+* Lukáš Kudrna (Finální dokumentace projektu a uživatelské rozhraní)
 
 ### Table of contents
 
@@ -50,6 +51,8 @@ The Nexys A7 board is a complete, ready-to-use digital circuit development platf
 ### Sin_gen module
 
 - text about this module
+
+
 
 #### Code for module
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/COUNTER_UpDw_14b.vhd
