@@ -109,7 +109,7 @@ https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de
 <a name="video"></a>
 ### Příklad výstupních signálů (noty) zobrazených osciloskopicky
 
-Nota C4, frekvence = ~261 Hz (Min)  |Nota C5, frekvence = ~523 Hz (Max)
+Nota C4 <br> frekvence = ~261 Hz (Min)  |Nota C5 <br> frekvence = ~523 Hz (Max)
 :-------------------------:|:-------------------------:
 ![C4](https://user-images.githubusercontent.com/99397107/165827889-ef8b4e22-0047-4556-83de-5ffc1c3d3463.png)|![C5](https://user-images.githubusercontent.com/99397107/165827930-9ff21b77-6a6a-4173-8dd5-d9f67f891dd6.png)
 
