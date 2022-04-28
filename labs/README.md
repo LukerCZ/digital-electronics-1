@@ -21,16 +21,12 @@
 
 ## Cíle projektu
 
-The objective of the project within the subject Digital electronics was to create PWM sound generation of basic signals. We used these components. Nexys A7-50 board to control 7-segment display to display frequency of PWM modulation for sinus signal. The codes, testbenches and simulations are created in Vivadu. Models and designes of board are created in Altium.
-
 Cílem projektu v rámci předmětu Digitální elektronika bylo vytvořit PWM generování zvuku základních signálů. Tyto komponenty jsme použili. Deska Nexys A7-50 pro ovládání 7segmentového displeje pro zobrazení frekvence PWM modulace pro sinusový signál. Kódy, testovací plochy a simulace jsou vytvořeny ve Vivado. Modely a návrhy desky jsou vytvořeny v Altiu.
 
 <a name="hardware"></a>
 
 ## Popis Hardwaru
 ### Nexys A7-50T
-
-The Nexys A7 board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7™ Field Programmable Gate Array (FPGA) from Xilinx®.  With its large, high-capacity FPGA, generous external memories, and collection of USB, Ethernet, and other ports, the Nexys A7 can host designs ranging from introductory combinational circuits to powerful embedded processors. Several built-in peripherals, including an accelerometer, temperature sensor, MEMs digital microphone, a speaker amplifier, and several I/O devices allow the Nexys A7 to be used for a wide range of designs without needing any other components.
 
 Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů, založená na nejnovějším Artix-7™ Field Programmable Gate Array (FPGA) od Xilinx®. Díky velkému, vysokokapacitnímu FPGA, velkorysým externím pamětem a nabídce spousty portů - USB, Ethernet a dalších, může Nexys A7 hostit návrhy od úvodních kombinačních obvodů až po výkonné vestavěné procesory. Několik vestavěných periferních zařízení, včetně akcelerometru, teplotního senzoru, digitálního mikrofonu MEM, zesilovače reproduktorů a několika I/O zařízení, umožňuje využít vývojovou desku Nexys A7-50T pro širokou škálu návrhů, bez nutnosti připojení externího hardwaru.
 
@@ -49,10 +45,11 @@ Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů, založe
 
 ![278620852_1021410442135136_7154315500152959101_n](https://user-images.githubusercontent.com/99388246/165693223-0a94e4e5-78b2-440c-bc23-228c8eb99cf3.png)
 |:--:| 
-|*Model desky zesilovače*|
+|*Model desky zesilovače (TOP)*|
 
 ![278885036_353535676806500_6518462935903523547_n](https://user-images.githubusercontent.com/99388246/165693208-ae4fd1d9-7659-4385-9e47-1a015b2743d0.png)
-
+|:--:| 
+|*Model desky zesilovače (TOP)*|
 <a name="modules"></a>
 
 ## Popis a simulace modulů psané ve VHDL
