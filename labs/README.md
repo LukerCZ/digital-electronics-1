@@ -62,7 +62,7 @@ Deska Nexys A7 je kompletní platforma pro vývoj digitálních obvodů, založe
 ![TOP_LR_VIEW](https://user-images.githubusercontent.com/99397107/165839082-08e70d71-ed08-4b9f-8b42-5cba28c647ea.JPG)|![BOT_LR_VIEW](https://user-images.githubusercontent.com/99397107/165839125-298f1211-196a-41d6-ac05-d930292057f7.JPG)
 
 ![0001](https://user-images.githubusercontent.com/99397107/165841715-2b7259a5-c591-4f51-b733-d8ca7df2b477.jpg)
-###### <fig caption> <p align="center"> Schéma desky zesilovače
+<fig caption> <p align="center"> Schéma desky zesilovače
 
 <a name="modules"></a>
 
@@ -160,5 +160,7 @@ https://youtu.be/nLSVV8CweyI
 5. Nexys A7-50T References: 
 - https://digilent.com/reference/_media/reference/programmable-logic/nexys-a7/nexys-a7-sch.pdf
 - https://digilent.com/reference/_media/reference/programmable-logic/nexys-a7/nexys-a7_rm.pdf
+6. Výsledné Altium soubory + Gerber
+- https://onedrive.live.com/?authkey=%21AFWKRFpeO7ds%2D%5FY&cid=3D59FBAD3CECD394&id=3D59FBAD3CECD394%2173346&parId=3D59FBAD3CECD394%2171179&action=locate
 
 
