@@ -3,8 +3,8 @@
 
 ### Členové týmu
 
-* Dominik Caban (zodpovídá za analogové části a vytváření signálu (SIN, PWM,TEST BENCH)
-* Ivo Dovičák (generování signálů a zvuků (SIN, PWM, BLOCK SCHEMATIC)
+* Dominik Caban (návrh zesilovač a vytváření signálu (SIN, PWM, BLOCK SCHEMATIC)
+* Ivo Dovičák (generování signálů a zvuků (SIN, PWM, TEST BENCH)
 * Martin Kováč (prezentace projektu a uživatelské rozhraní)
 * Lukáš Kudrna (Finální dokumentace projektu a uživatelské rozhraní)
 
