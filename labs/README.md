@@ -141,9 +141,11 @@ https://youtu.be/nLSVV8CweyI
 <a name="references"></a>
 
 ## Diskuze o výsledcích projektu
-
+- Na snímkoch z ociloskopu možme pozorovať, že výsledna sínusoida nie je hladká, ale má "schodovitý tvar". Je to dané metódou, ktorú používame na generovanie sínusu, kedy si sínusoidu rozdelíme na 36 častí a každá z nich má istú úroveň. Hladšiu sínusoidu by sme dosiahli, ak by sme použili viacero častí, ale 36 častí pre naše účely postačuje.
+- Jeden z problémov, ktorý sme riešili, bol, že sme nevedeli vypočítať periódu PWM pulzov, pre ktoré by sme dosiahli požadovanú frekvenciu audio signálu. Po mnoha nevydarených výpočtoch sme použili experimentálnu metódu, kedy sme s pomocu osciloskopu prišli na periódu pwm pulzov, kedy má audio signál 1 kHz (bolo to 27770 ns).
+ Zvyšné frekvencie sme dopočítali podľa vzorca p = (2777/(f/1000)), dané riešenie fungovalo.
 - Ideálnější variantou by bylo využití VGA zesilovače, který by byl řiditelný přes vývojový kit, ovšem realizace v tomto konkrétním případě by byla komplikovaná a projekt by jen zkomplikovala.
-- Projekt nám přinesl vela radosti, zabavili jsme se u toho a naučili jsme se mnoho nových věcí.
+- Projekt nám přinesl vela nových skúseností, a naučili jsme se mnoho nových věcí. 
 
 ## Literatura
 
