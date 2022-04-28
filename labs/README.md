@@ -4,7 +4,7 @@
 ### Členové týmu
 
 * Dominik Caban (zodpovídá za analogové části a vytváření signálu (SIN, PWM,TEST BENCH)
-* Ivo Dovičák (generovaání signálů a zvuků (SIN, PWM, BLOCK SCHEMATIC)
+* Ivo Dovičák (generování signálů a zvuků (SIN, PWM, BLOCK SCHEMATIC)
 * Martin Kováč (prezentace projektu a uživatelské rozhraní)
 * Lukáš Kudrna (Finální dokumentace projektu a uživatelské rozhraní)
 
@@ -39,7 +39,9 @@ The Nexys A7 board is a complete, ready-to-use digital circuit development platf
 
 - Do našeho studentského projektu jsme zakomponovali také vývojový kit - výstupní zesilovač s nastavitelným ziskem. Hlavní smysl našeho zesilovače je v rámci výuky přiblížit studentům samotný HW (ovšem vývojový kit od XILINX v našem případě deska Nexys A7-50T naprosto stačí).
 - Tento zesilovač by v případě realizace (GERBERY sú uvedené v prílohách projektu, ten QR kód funguje :)) sloužil na nastavení výstupní amplitudy signálu tj. větší zesílení zvuku.
-- Na vstupu zesilovače je zavedena ochrana proti nesprávnému zapojení napájecího napětí(polaritě) 
+- Na vstupu zesilovače je zavedena ochrana proti nesprávnému zapojení napájecího napětí (polaritě),TVS (ochranná dioda) proti přesáhnutí maximálního napětí přivedeného na zesilovač a Low-pass filter pro potlačení rušení. 
+- Např. při napájení zesilovače z USB notebooku, můžeme dostat nasuperponované vysokofrekvenční rušení a tento filtr 
+
 ![278620852_1021410442135136_7154315500152959101_n](https://user-images.githubusercontent.com/99388246/165693223-0a94e4e5-78b2-440c-bc23-228c8eb99cf3.png)
 |:--:| 
 |*Model desky zesilovače*|
