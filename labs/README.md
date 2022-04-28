@@ -90,6 +90,23 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 ### Simulace
 - text ohľadom simulácií.
 
+|:--:| 
+|*Schéma simulací v prostředí Vivado*|
+
+Minimum                    |Maximum
+:-------------------------:|:-------------------------:
+![MIN](https://user-images.githubusercontent.com/99397107/165824665-f28134af-fd2a-4e1f-8857-7d2d55cf2aeb.JPG)|![MAX](https://user-images.githubusercontent.com/99397107/165824905-91994a5c-5f9b-44cf-b043-a7ce4f09109b.JPG)
+
+
+Middle                     |Průchod nulou
+:-------------------------:|:-------------------------:
+![MIDDLE](https://user-images.githubusercontent.com/99397107/165825357-6f038a63-20d1-4ff8-b063-57b1a8716338.JPG)
+  |  ![PrechodNulou](https://user-images.githubusercontent.com/99397107/165825387-5c306b4b-8cd2-4e24-94c8-fac82572a6bc.JPG)
+
+
+
+|:--:| 
+|*Schéma simulací v prostředí Vivado*|
 
 <a name="top"></a>
 
@@ -100,6 +117,7 @@ Top module contains all above modules. It connects them together with hardware c
 ### Kód TOP modulu
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sim_1/imports/new/tb_TOP_GENERATOR.vhd
 
+![TOP_Schema](https://user-images.githubusercontent.com/99397107/165823085-27287982-7e3d-4061-8c78-0134287f429d.JPG)
 |:--:| 
 |*Schéma Top modulu*|
 
@@ -120,16 +138,16 @@ Write your text here
 
 1. Nexys A7 Reference Manual: 
 - https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
-3. Github:
+2. Github:
 - https://github.com/tomas-fryza/digital-electronics-1/tree
 - 
-4. Sine wave generator using PWM:
+3. Sine wave generator using PWM:
 - https://www.ti.com/lit/an/spna217/spna217.pdf?
  
-5. Datasheet of operational amplifier:
+4. Datasheet of operational amplifier:
 - https://www.analog.com/media/en/technical-documentation/data-sheets/ad8591_8592_8594.pdf
 
-6. Nexys A7-50T References: 
+5. Nexys A7-50T References: 
 - https://digilent.com/reference/_media/reference/programmable-logic/nexys-a7/nexys-a7-sch.pdf
 - https://digilent.com/reference/_media/reference/programmable-logic/nexys-a7/nexys-a7_rm.pdf
 
