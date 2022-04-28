@@ -89,7 +89,7 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 
 ### Simulace v prostředí Vivado
 
-- text ohľadom simulácií.
+- Simulace PWM sinu
 
 Minimum                    |Maximum
 :-------------------------:|:-------------------------:
@@ -97,11 +97,10 @@ Minimum                    |Maximum
 
 
 
-Middle                     |Průchod nulou
+Střed                      |Průchod nulou
 :-------------------------:|:-------------------------:
 ![MIDDLE](https://user-images.githubusercontent.com/99397107/165825357-6f038a63-20d1-4ff8-b063-57b1a8716338.JPG)|![PrechodNulouFIN](https://user-images.githubusercontent.com/99397107/165826258-7d612401-1e23-45be-a742-2d1f50f00cf4.jpg)
-|:--:|:--:|
-|*Schéma simulací [testbench] v prostředí Vivado*|
+
 
 <a name="top"></a>
 
@@ -119,13 +118,19 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 <a name="video"></a>
 ## Příklad výstupních signálů (noty) zobrazených osciloskopicky
 
-Nota C4, frekvence = ~261 Hz, Min  |Nota C5, (frekvence = ~523 Hz), Max
+Nota C4, frekvence = ~261 Hz (Min)  |Nota C5, frekvence = ~523 Hz (Max)
 :-------------------------:|:-------------------------:
 ![C4](https://user-images.githubusercontent.com/99397107/165827889-ef8b4e22-0047-4556-83de-5ffc1c3d3463.png)|![C5](https://user-images.githubusercontent.com/99397107/165827930-9ff21b77-6a6a-4173-8dd5-d9f67f891dd6.png)
 
-|:--:|:--:|
-|*Oscilogram výstupních signálů*|
+### Nota C5 Min, Max, Střed oscilogramy
 
+minimum sinusoidy              |Maximum sinusoidy
+:-------------------------:|:-------------------------:
+![C5_MIN](https://user-images.githubusercontent.com/99397107/165830655-b29274e9-168a-4838-9db8-21de372fa88c.png)|![C5_MAX](https://user-images.githubusercontent.com/99397107/165830683-88cb7ced-67a9-4b66-be49-cc60672f50a2.png)
+
+Střed sinusoidy             |Spektrum sinusoidy
+:-------------------------:|:-------------------------:
+![C5_MID](https://user-images.githubusercontent.com/99397107/165830888-39846d89-9cd3-4b81-b038-4d63b277ad6b.png)|![C5_Spektrum](https://user-images.githubusercontent.com/99397107/165830906-6ef4ea90-2434-49d2-9d60-5067d2526a32.png)
 
 ## Video
 
