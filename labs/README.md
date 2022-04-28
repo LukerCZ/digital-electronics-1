@@ -1,5 +1,5 @@
 
-# Generace signálů a monofonních zvuků pomocí pulzně šířkové modulace vytvořené na multifunkční desce Nexys A7-50T
+# Generace signálů a monofonních zvuků <br>pomocí pulzně šířkové modulace <br> vytvořené na multifunkční desce Nexys A7-50T
 
 ### Členové týmu
 
@@ -21,7 +21,10 @@
 
 ## Cíle projektu
 
-Cílem projektu v rámci předmětu Digitální elektronika bylo vytvořit PWM generování zvuku základních signálů. Tyto komponenty jsme použili. Deska Nexys A7-50 pro ovládání 7segmentového displeje pro zobrazení frekvence PWM modulace pro sinusový signál. Kódy, testovací plochy a simulace jsou vytvořeny ve Vivado. Modely a návrhy desky jsou vytvořeny v Altiu.
+- Cílem projektu v rámci předmětu Digitální elektronika 1 bylo vytvořit PWM generování zvuku základních signálů
+- Deska Nexys A7-50 pro ovládání 7segmentového displeje pro zobrazení frekvence PWM modulace pro sinusový signál. 
+- Kódy, testovací plochy a simulace jsou vytvořeny ve Vivadu.
+- Modely a návrhy desky jsou vytvořeny v Altium (PCB Design Softwares).
 
 <a name="hardware"></a>
 
