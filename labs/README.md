@@ -100,7 +100,7 @@ Minimum                    |Maximum
 Middle                     |Průchod nulou
 :-------------------------:|:-------------------------:
 ![MIDDLE](https://user-images.githubusercontent.com/99397107/165825357-6f038a63-20d1-4ff8-b063-57b1a8716338.JPG)|![PrechodNulouFIN](https://user-images.githubusercontent.com/99397107/165826258-7d612401-1e23-45be-a742-2d1f50f00cf4.jpg)
-|:--:| 
+|:--:|:--:|
 |*Schéma simulací [testbench] v prostředí Vivado*|
 
 <a name="top"></a>
@@ -119,12 +119,13 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 <a name="video"></a>
 ## Příklad výstupních signálů (noty) zobrazených osciloskopicky
 
-Nota C4 [frekvence = ~261 Hz] Minimum           |Nota C5 [frekvence = ~523 Hz] Maximum
+Nota C4, frekvence = ~261 Hz, Min  |Nota C5, (frekvence = ~523 Hz), Max
 :-------------------------:|:-------------------------:
-![MIDDLE](https://user-images.githubusercontent.com/99397107/165825357-6f038a63-20d1-4ff8-b063-57b1a8716338.JPG)|![PrechodNulouFIN](https://user-images.githubusercontent.com/99397107/165826258-7d612401-1e23-45be-a742-2d1f50f00cf4.jpg)
+![C4](https://user-images.githubusercontent.com/99397107/165827889-ef8b4e22-0047-4556-83de-5ffc1c3d3463.png)|![C5](https://user-images.githubusercontent.com/99397107/165827930-9ff21b77-6a6a-4173-8dd5-d9f67f891dd6.png)
 
-|:--:| 
-|*Oscilogram výstupních signálů *|
+|:--:|:--:|
+|*Oscilogram výstupních signálů*|
+
 
 ## Video
 
