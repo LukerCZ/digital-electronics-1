@@ -88,25 +88,26 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/driver_7seg_4digits.vhd
 
 ### Simulace
-- text ohľadom simulácií.
 
-|:--:| 
-|*Schéma simulací v prostředí Vivado*|
+##### Testbench simulace ve Vivadu
+
+- text ohľadom simulácií.
 
 Minimum                    |Maximum
 :-------------------------:|:-------------------------:
 ![MIN](https://user-images.githubusercontent.com/99397107/165824665-f28134af-fd2a-4e1f-8857-7d2d55cf2aeb.JPG)|![MAX](https://user-images.githubusercontent.com/99397107/165824905-91994a5c-5f9b-44cf-b043-a7ce4f09109b.JPG)
 
 
+
 Middle                     |Průchod nulou
 :-------------------------:|:-------------------------:
-![MIDDLE](https://user-images.githubusercontent.com/99397107/165825357-6f038a63-20d1-4ff8-b063-57b1a8716338.JPG)
-  |  ![PrechodNulou](https://user-images.githubusercontent.com/99397107/165825387-5c306b4b-8cd2-4e24-94c8-fac82572a6bc.JPG)
-
-
-
+![MIDDLE](https://user-images.githubusercontent.com/99397107/165825357-6f038a63-20d1-4ff8-b063-57b1a8716338.JPG)|![PrechodNulouFIN](https://user-images.githubusercontent.com/99397107/165826258-7d612401-1e23-45be-a742-2d1f50f00cf4.jpg)
 |:--:| 
-|*Schéma simulací v prostředí Vivado*|
+|*Schéma simulací [testbench] v prostředí Vivado*|
+
+#####  Výstupní signál zobrazený pomocí osciloskopu
+
+
 
 <a name="top"></a>
 
