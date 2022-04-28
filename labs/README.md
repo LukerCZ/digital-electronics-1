@@ -53,43 +53,38 @@ The Nexys A7 board is a complete, ready-to-use digital circuit development platf
 
 ## Popis a simulace modulů psané ve VHDL
 
-
-
 ### Modul Sin_gen 
 
 - text about this module
 
 
 
-#### Kód modulu Sin-gen
-https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/COUNTER_UpDw_14b.vhd
-
+#### Odkaz na kód modulu Sin-gen
+https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/sin_generator.vhd
 
 ### Modul SW handler 
 
 - text about this module
 
-#### Kód modulu SW handler
-
+#### Odkaz na kód modulu SW handler
+https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/switch_handler.vhd
 
 ### Modul PWM_gen
 
 - text about this module
 
-#### Kód modulu PWM_gen
-https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/PWM.vhd
+#### Odkaz na kód modulu PWM_gen
+https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/pwm_generator.vhd
 
 
 ### Modul Driver-7seg
 
 - text about this module
 
-#### Kód modulu Driver-7seg
-https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/driver_7seg_4digits.vhd
+#### Odkaz na kód modulu Driver-7seg
+https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/driver_7seg_4digits.vhd
 
-### Simulace v prostředí Vivado
-
-- Simulace PWM sinu
+### Simulace PWM pro sinus v prostředí Vivado
 
 Minimum                    |Maximum
 :-------------------------:|:-------------------------:
@@ -101,30 +96,29 @@ Střed                      |Průchod nulou
 :-------------------------:|:-------------------------:
 ![MIDDLE](https://user-images.githubusercontent.com/99397107/165825357-6f038a63-20d1-4ff8-b063-57b1a8716338.JPG)|![PrechodNulouFIN](https://user-images.githubusercontent.com/99397107/165826258-7d612401-1e23-45be-a742-2d1f50f00cf4.jpg)
 
-
 <a name="top"></a>
 
 ## Popis a simulace TOP vrstvy ve VHDL
 
-Top module contains all above modules. It connects them together with hardware components.
+TOP modul v sobě "skrývá" všechny moduly a umožnuje je připojit k hardwarových komponentům (v našem ppřípadě deska Nexys A7-50T)
 
-### Kód TOP modulu
-https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sim_1/imports/new/tb_TOP_GENERATOR.vhd
+### Odkaz na kód TOP modulu
+https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/top.vhd
 
 ![TOP_Schema](https://user-images.githubusercontent.com/99397107/165823085-27287982-7e3d-4061-8c78-0134287f429d.JPG)
 |:--:| 
 |*Schéma Top modulu*|
 
 <a name="video"></a>
-#### Příklad výstupních signálů (noty) zobrazených osciloskopicky
+### Příklad výstupních signálů (noty) zobrazených osciloskopicky
 
 Nota C4, frekvence = ~261 Hz (Min)  |Nota C5, frekvence = ~523 Hz (Max)
 :-------------------------:|:-------------------------:
 ![C4](https://user-images.githubusercontent.com/99397107/165827889-ef8b4e22-0047-4556-83de-5ffc1c3d3463.png)|![C5](https://user-images.githubusercontent.com/99397107/165827930-9ff21b77-6a6a-4173-8dd5-d9f67f891dd6.png)
 
-#### Nota C5: Min, Max, Střed a Spektrum sinsového signálu (oscilogramy)
+### Nota C5: Min, Max, Střed a Spektrum sinusového signálu (oscilogramy)
 
-Minimum sinusoidy              |Maximum sinusoidy
+Minimum sinusoidy          |Maximum sinusoidy
 :-------------------------:|:-------------------------:
 ![C5_MIN](https://user-images.githubusercontent.com/99397107/165830655-b29274e9-168a-4838-9db8-21de372fa88c.png)|![C5_MAX](https://user-images.githubusercontent.com/99397107/165830683-88cb7ced-67a9-4b66-be49-cc60672f50a2.png)
 
@@ -137,7 +131,6 @@ Střed sinusoidy             |Spektrum sinusoidy
 Write your text here
 
 <a name="references"></a>1
-
 
 ## Diskuze o výsledcích projektu
 
