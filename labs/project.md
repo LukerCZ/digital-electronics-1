@@ -35,7 +35,10 @@ The Nexys A7 board is a complete, ready-to-use digital circuit development platf
 |:--:| 
 |*Nexys A7-50T*|
 
-### Zesilovací deska
+### Zesilovač
+
+Do našeho studentského projektu jsme zakomponovali také vývojový kit - výstupní zesilovač s nastavitelným ziskem. Hlavní smysl našeho zesilovače je v rámci výuky přiblížit studentům samotný HW (ovšem vývojový kit od XILINX v našem případě deska Nexys A7-50T naprosto stačí).
+jnkajfbjhea
 ![278620852_1021410442135136_7154315500152959101_n](https://user-images.githubusercontent.com/99388246/165693223-0a94e4e5-78b2-440c-bc23-228c8eb99cf3.png)
 |:--:| 
 |*Model desky zesilovače*|
