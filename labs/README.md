@@ -99,13 +99,12 @@ https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de
 #### Odkaz na kód modulu Driver-7seg
 https://github.com/DominikCaban/digital-electronics-1/blob/main/projekt_sinus/de1_projekt.srcs/sources_1/new/driver_7seg_4digits.vhd
 
-### Simulace PWM pro sinus v prostředí Vivado
-
+### Výsledek testbench z prostředí Vivada
 
 Střed                      |Průchod nulou
 :-------------------------:|:-------------------------:
 ![MIDDLE](https://user-images.githubusercontent.com/99397107/165825357-6f038a63-20d1-4ff8-b063-57b1a8716338.JPG)|![PrechodNulouFIN](https://user-images.githubusercontent.com/99397107/165826258-7d612401-1e23-45be-a742-2d1f50f00cf4.jpg)
-
+ 
 <a name="top"></a>
 
 ## Popis a simulace TOP vrstvy ve VHDL
