@@ -3,10 +3,14 @@
 
 ### Členové týmu
 
-* Dominik Caban (návrh zesilovač a vytváření signálu (SIN, PWM, BLOCK SCHEMATIC)
-* Ivo Dovičák (generování signálů a zvuků (SIN, PWM, TEST BENCH)
-* Martin Kováč (prezentace projektu a uživatelské rozhraní)
-* Lukáš Kudrna (Finální dokumentace projektu a uživatelské rozhraní)
+* Dominik Caban 
+- návrh zesilovač a vytváření signálu (SIN, PWM, BLOCK SCHEMATIC), proslov u videa
+* Ivo Dovičák 
+- generování signálů a zvuků (SIN, PWM, TEST BENCH),trýčky s displejem
+* Martin Kováč 
+- střih a finální ůprava videa a uživatelské rozhraní
+* Lukáš Kudrna 
+- finální dokumentace projektu (README) a uživatelské rozhraní
 
 ### Obsah
 
